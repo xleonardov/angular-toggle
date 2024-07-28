@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { AngularSwitcheryComponent } from './angular-switchery.component';
+import { AngularSwitcheryComponent } from './angular-toggle.component';
 
 
 

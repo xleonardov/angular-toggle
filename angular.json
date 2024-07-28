@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-switchery": {
+    "angular-toggle": {
       "projectType": "library",
-      "root": "projects/angular-switchery",
-      "sourceRoot": "projects/angular-switchery/src",
+      "root": "projects/angular-toggle",
+      "sourceRoot": "projects/angular-toggle/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/angular-switchery/ng-package.json"
+            "project": "projects/angular-toggle/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-switchery/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-toggle/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/angular-switchery/tsconfig.lib.json"
+              "tsConfig": "projects/angular-toggle/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/angular-switchery/tsconfig.spec.json",
+            "tsConfig": "projects/angular-toggle/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -38,8 +38,8 @@
           "builder": "@angular-eslint/builder:lint",
           "options": {
             "lintFilePatterns": [
-              "projects/angular-switchery/**/*.ts",
-              "projects/angular-switchery/**/*.html"
+              "projects/angular-toggle/**/*.ts",
+              "projects/angular-toggle/**/*.html"
             ]
           }
         }

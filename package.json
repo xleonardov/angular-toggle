@@ -1,5 +1,5 @@
 {
-  "name": "angular-switchery",
+  "name": "angular-toggle",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "package": "ng build angular-switchery && cp ./README.md ./dist/angular-switchery && cd dist/angular-switchery && npm pack"
+    "package": "ng build angular-toggle && cp ./README.md ./dist/angular-toggle && cd dist/angular-toggle && npm pack"
   },
   "private": true,
   "dependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "angular-switchery",
+  "name": "angular-toggle",
   "version": "15.0.4",
   "peerDependencies": {
     "@angular/common": "^15.0.0",

@@ -2,10 +2,10 @@ import { Component, forwardRef, EventEmitter, Output, Input } from '@angular/cor
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 
 @Component({
-  selector: 'angular-switchery',
+  selector: 'angular-toggle',
   template: `<span (keydown)="onKeyDown($event)" tabindex="0" [class]="className" (click)="onClick()" [class.disabled]="isDisabled()">
             <small [ngClass]="{'checked': checked}"></small></span>`,
-  styleUrls: ['./angular-switchery.component.css'],
+  styleUrls: ['./angular-toggle.component.css'],
   providers: [{
     provide: NG_VALUE_ACCESSOR,
     useExisting: forwardRef(() => AngularSwitcheryComponent),

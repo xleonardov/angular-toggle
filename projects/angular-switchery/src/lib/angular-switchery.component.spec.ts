@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AngularSwitcheryComponent } from './angular-switchery.component';
+import { AngularSwitcheryComponent } from './angular-toggle.component';
 
 describe('AngularSwitcheryComponent', () => {
   let component: AngularSwitcheryComponent;

@@ -1,6 +1,6 @@
 /*
- * Public API Surface of angular-switchery
+ * Public API Surface of angular-toggle
  */
 
-export * from './lib/angular-switchery.component';
-export * from './lib/angular-switchery.module';
+export * from './lib/angular-toggle.component';
+export * from './lib/angular-toggle.module';

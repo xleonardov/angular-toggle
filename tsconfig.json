@@ -3,8 +3,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "angular-switchery": [
-        "dist/angular-switchery"
+      "angular-toggle": [
+        "dist/angular-toggle"
       ]
     },
     "baseUrl": "./",

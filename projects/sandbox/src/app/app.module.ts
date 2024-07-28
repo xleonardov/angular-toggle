@@ -4,7 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
-import { AngularSwitcheryModule } from 'angular-switchery';
+import { AngularSwitcheryModule } from 'angular-toggle';
 
 @NgModule({
   declarations: [
