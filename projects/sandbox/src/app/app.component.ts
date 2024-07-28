@@ -7,7 +7,7 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public swticherModel: boolean = false;
+  public swticherModel: boolean = false; // This is not for model importing
   public switcheryControl: FormControl = new FormControl(false);
 
   ngOnInit() {
